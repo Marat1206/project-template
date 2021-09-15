@@ -1,0 +1,155 @@
+@media (max-width: 1400px) {
+  .header{
+    .main_header_wrapper{
+      .menu a:not(:last-child){
+        margin-right: 29px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo{
+    .logo_wrapper img{
+      width: 200px;
+    }
+  }
+  .menu{
+    .arrow{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .menu a{
+    font-size: 13px;
+  }
+  .search_wrapper a{
+    display: none;
+  }
+}
+
+@media(max-width: 768px){
+  .header{
+    .main_header_wrapper{
+      .menu a:not(:last-child){
+        margin-right: 20px;
+      }
+      .user_img{
+        width: 11px;
+        height: 13px;
+      }
+      .basket_img{
+        width: 13px;
+        height: 12px;
+      }
+    }
+    .logo{
+      .logo_wrapper img{
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header{
+    .header_phone{
+      width: 50%;
+    }
+    .header_language{
+      width: 50%;
+    }
+    .main_header_wrapper{
+      .logo{
+        width: 33%;
+      }
+      .main_menu{
+        width: 33%;
+      }
+      .user{
+        width: 33%;
+      }
+     }
+    }
+  }
+
+@media (max-width: 480px) {
+  .header{
+    .main_header_wrapper{
+      .menu a{
+        margin: 0!important;
+      }
+      .user{
+        flex-direction: column;
+        align-items: end;
+        margin: 0 auto;
+      }
+      .basket_img{
+        margin: 0;
+        width: 15px;
+        height: 14px;
+      }
+      .user_img{
+        width: 13px;
+        height: 16px;
+      }
+    }
+    .logo{
+      .logo_wrapper img{
+        width: 120px;
+      }
+    }
+  }
+  .main_menu{
+    justify-content: end;
+    .menu{
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    .header_phone {
+      width: 50%;
+      padding: 5px 0;
+    }
+    .header_language {
+      width: 50%;
+    }
+    .header_wrapper{
+      .phone_number{
+        padding: 0;
+      }
+      .language{
+        padding: 0;
+      }
+    }
+    .main_header_wrapper{
+      .logo{
+        width: 100%;
+        justify-content: center;
+      }
+      .logo_wrapper{
+        margin: 0;
+      }
+      .main_menu{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+        line-height: 20px;
+      }
+      .user{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        a{
+          padding: 0 15px;
+        }
+      }
+
+    }
+  }
+}
